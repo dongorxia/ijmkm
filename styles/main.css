@@ -74,7 +74,7 @@ body {
   user-select: none;
   font-size: 18px;
 
-  background-image: -webkit-linear-gradient(
+  /* background-image: -webkit-linear-gradient(
     left,
     blue,
     #66ffff 10%,
@@ -87,6 +87,20 @@ body {
     #cc00ff 80%,
     #66ffff 90%,
     blue 100%
+  ); */
+  background-image: -webkit-linear-gradient(
+    left,
+    #ffc0cb,
+    #ffc0cb 10%,
+    #ffc0cb 20%,
+    #ffc0cb 30%,
+    #ffc0cb 40%,
+    #ffc0cb 50%,
+    #ffc0cb 60%,
+    #ffc0cb 70%,
+    #ffc0cb 80%,
+    #ffc0cb 90%,
+    #ffc0cb 100%
   );
   -webkit-text-fill-color: transparent; /* 字体设置成透明色 */
   -webkit-background-clip: text; /* 裁剪背景，使文字作为裁剪区域向外裁剪 */
